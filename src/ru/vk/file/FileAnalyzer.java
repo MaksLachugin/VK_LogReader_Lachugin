@@ -1,4 +1,4 @@
-package ru.vk;
+package ru.vk.file;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,6 +11,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+
+import ru.vk.utils.ProgressBar;
 import ru.vk.word.BaseWord;
 import ru.vk.word.ErrorWord;
 

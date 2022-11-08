@@ -1,1 +1,12 @@
-& 'C:\po\lang\java\jdk-19.0.1\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\prog\VK_LogReader_Lachugin\bin' 'ru.vk.App' 'D:\prog\VK_LogReader_Lachugin'
+Для запуска использовал команды представленные ниже.
+Аргументы:
+1 файл / папка в которой файлы (и рекурсивно подпапки)
+2 способ поиска слов
+-0 'Error'
+-1 Текстовое выражение 
+-2 Регулярное выражение
+3 для случаев 2.1 и 2.2 указывается выражение по которому будет осуществляться поиск
+
+& 'C:\po\lang\java\jdk-19.0.1\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\prog\VK_LogReader_Lachugin\bin' 'ru.vk.App' '.' 0   
+& 'C:\po\lang\java\jdk-19.0.1\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\prog\VK_LogReader_Lachugin\bin' 'ru.vk.App' '.' 1 'BP_TestTest' 
+& 'C:\po\lang\java\jdk-19.0.1\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\prog\VK_LogReader_Lachugin\bin' 'ru.vk.App' '.' 2 '.*BP_TestTest'

@@ -1,4 +1,4 @@
-package ru.vk;
+package ru.vk.utils;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package ru.vk;
+package ru.vk.file;
 
 import java.io.File;
 import java.util.Arrays;
