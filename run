@@ -1,0 +1,1 @@
+& 'C:\po\lang\java\jdk-19.0.1\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\prog\VK_LogReader_Lachugin\bin' 'ru.vk.App' 'D:\prog\VK_LogReader_Lachugin'
