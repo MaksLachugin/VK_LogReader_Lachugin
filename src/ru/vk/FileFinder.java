@@ -12,7 +12,8 @@ public class FileFinder {
     }
 
     public static boolean isText(File file) {
-        return file.getName().endsWith(".txt") || file.getName().endsWith(".log");
+        // file.getName().endsWith(".txt") ||
+        return file.getName().endsWith(".log");
 
     }
 
